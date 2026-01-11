@@ -1,4 +1,4 @@
-# Phone Number to Words Converter
+# Phone Number to Words Converter.
 
 phone_num = input("Enter Your Phone Number: ")
 
