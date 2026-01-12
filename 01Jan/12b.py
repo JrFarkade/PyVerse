@@ -1,4 +1,4 @@
-# Weight Converter Program (Kilograms ↔ Pounds)
+# Weight Converter Program. (Kilograms ↔ Pounds)
 
 weight = float(input("Enter your weight: "))
 unit = input("Is this weight in (K) kilograms or (P) pounds? ").strip().upper()
