@@ -1,14 +1,14 @@
-# Weight Converter Program. (Kilograms ↔ Pounds)
+# Weight Converter Program (Kilograms ↔ Pounds)
 
 weight = float(input("Enter your weight: "))
 unit = input("Is this weight in (K) kilograms or (P) pounds? ").strip().upper()
 
 if unit == "K":
-    pounds = weight * 2.2046226218
+    pounds = weight * 2.2046
     print(f"Your weight in pounds is: {pounds:.2f} lbs")
 
 elif unit == "P":
-    kilograms = weight * 0.45359237
+    kilograms = weight * 0.4535
     print(f"Your weight in kilograms is: {kilograms:.2f} kg")
 
 else:
