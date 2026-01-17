@@ -1,4 +1,4 @@
-# To find the Maximum Number
+# To find the Maximum Number.
 nums = []
 n = int(input("How many numbers? "))
 
