@@ -1,4 +1,4 @@
-# Straw Hat Crew Dictionary (Python)
+# Straw Hat Crew Dictionary
 
 straw_hat_crew = {
     "Captain": "Monkey D. Luffy",
