@@ -1,0 +1,19 @@
+# Guess the Pokemon
+import random
+
+pokemons = ["Pikachu", "Charmander", "Lucario", "Bulbasaur", "Squirtle", "Dragonite", "Mew"]
+secret = random.choice(pokemons)
+
+print("Guess the Pokemon (only first letter). You have 3 chances.")
+print("Pokemons:", pokemons)
+
+for chance in range(3):
+    guess = input("First letter: ").lower()
+
+    if guess == secret[0].lower():
+        print("Correct! Pokemon was:", secret)
+        break
+    else:
+        print("Wrong!")
+else:
+    print("Game Over! Pokemon was:", secret)
