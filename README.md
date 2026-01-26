@@ -8,7 +8,6 @@ These programs helped me improve my basics like:
 - random module
 - user input
 - simple logic building
-- 
 ## How to Run ▶️
 1. Clone the repository
 2. Open folder in VS Code / Terminal
